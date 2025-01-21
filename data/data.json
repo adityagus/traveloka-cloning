@@ -1,0 +1,60 @@
+{
+  "vocationSpots": [
+    {
+      "title": "Singapura",
+      "description": "644 accomodations",
+      "imageUrl": "https://ik.imagekit.io/tvlk/image/imageResource/2023/06/14/1686721653524-bc0f2c3fffd4aeef0625f80be707e47e.png?tr=q-75,w-427"
+    },
+    {
+      "title": "Malaysia",
+      "description": "644 accomodations",
+      "imageUrl": "https://ik.imagekit.io/tvlk/image/imageResource/2023/05/29/1685328965749-d622f5f8496a6dc11d9b1aca65c6d58e.png?tr=q-75,w-427"
+    },
+    {
+      "title": "Thailand",
+      "description": "644 accomodations",
+      "imageUrl": "https://ik.imagekit.io/tvlk/image/imageResource/2023/05/29/1685329328194-3d7df8cb31d4a3bf69f10209ba8402ec.png?tr=q-75,w-427"
+    },
+    {
+      "title": "Korea Selatan",
+      "description": "644 accomodations",
+      "imageUrl": "https://ik.imagekit.io/tvlk/image/imageResource/2023/06/15/1686809713621-ac488739179f461b75c53443441e5097.png?tr=q-75,w-256"
+    },
+    {
+      "title": "Jepang",
+      "description": "644 accomodations",
+      "imageUrl": "https://ik.imagekit.io/tvlk/image/imageResource/2023/06/14/1686721668179-e94d7aabf9c42cfc8e91107be9bc9068.png?tr=q-75,w-427"
+    },
+    {
+      "title": "Hongkong",
+      "description": "644 accomodations",
+      "imageUrl": "https://ik.imagekit.io/tvlk/image/imageResource/2023/06/14/1686721674810-ed67c0dd0bf264ccd1eb4c79faa74d00.png?tr=q-75,w-427"
+    }
+  ],
+  "promos": [
+    {
+      "id": "1",
+      "title": "Promo terbaik buat liburan irit!",
+      "buttons": [
+        {
+          "label": "Flight",
+          "iconUrl": "https://de2sjuwtxpj10.cloudfront.net/imageResource/sectionFilterIcon/8df18828-a870-4210-8d42-1eae6ab2e58e"
+        },
+        {
+          "label": "Hotel",
+          "iconUrl": "https://de2sjuwtxpj10.cloudfront.net/imageResource/sectionFilterIcon/8df18828-a870-4210-8d42-1eae6ab2e58e"
+        },
+        {
+          "label": "Car",
+          "iconUrl": "https://de2sjuwtxpj10.cloudfront.net/imageResource/sectionFilterIcon/8df18828-a870-4210-8d42-1eae6ab2e58e"
+        },
+        {
+          "label": "Attraction",
+          "iconUrl": "https://de2sjuwtxpj10.cloudfront.net/imageResource/sectionFilterIcon/8df18828-a870-4210-8d42-1eae6ab2e58e"
+        }
+      ],
+      "description": "Get 10% off on your next purchase.",
+      "expiryDate": "2025-02-01"
+    }
+  ]
+}

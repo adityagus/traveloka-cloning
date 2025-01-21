@@ -2,7 +2,8 @@
 export default {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/container/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/presentational/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
@@ -13,11 +14,18 @@ export default {
       },
       colors: {
         colors: {
-          'primary-orange': '#FF5722',
+          'primary-blue': '#0194F3',
         },
         // background: "var(--background)",
         // foreground: "var(--foreground)",
       },
+      dropShadow: {
+        // '4xl': '0px 0px 13px 15px rgba(140,140,144,0.75)',
+        '4xl': [
+            '0 35px 35px  15px rgba(0, 0, 0, 0.25)',
+            '0 45px 65px 15px rgba(0, 0, 0, 0.15)'
+        ]
+      }
     },
   },
   plugins: [],
