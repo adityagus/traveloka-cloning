@@ -4,24 +4,24 @@ const TabNav = ({ scroll }) => {
   // console.log('TabNav', scroll);
 
   return (
-    <div class="max-sm:hidden">
-      <div class={`divider-nav ${scroll && "hidden my-2"}`}></div>
+    <div className="max-sm:hidden">
+      <div className={`divider-nav ${scroll && "hidden my-2"}`}></div>
       <div
         className={`font-bold flex py-2 text-sm gap-5 md:gap-8 items-center sm:flex  bg-dark navbar ${
           scroll ? "text-gray-400 py-4" : "text-white"
         }`}
       >
-        <Link href="/hotels">Hotels</Link>
-        <Link href="/">Flights</Link>
-        <Link href="/">Trains</Link>
-        <Link href="/">Bus & Travel</Link>
-        <Link href="/">Airport Transfer</Link>
-        <Link href="/">Car Rental</Link>
-        <Link href="/">Things to Do</Link>
-        <div className="flex items-center justify-center">
-          <Link className="" href="/">
-            More{" "}
-          </Link>
+        <Link href="/hotels">Hotel</Link>
+      <Link href="/">Tiket Pesawat</Link>
+      <Link href="/">Tiket Kereta Api</Link>
+      <Link href="/">Tiket Bus & Travel</Link>
+      <Link href="/">Antar Jemput Bandara</Link>
+      <Link href="/">Rental Mobil</Link>
+      <Link href="/">Atraksi dan Aktivitas</Link>
+      <div className="flex items-center justify-center">
+        <Link className="" href="/">
+          Produk Lainnya{""}
+        </Link>
 
           <svg
             className="w-3 h-3 text-gray-500 justify-center items-center text-center flex"
@@ -34,7 +34,7 @@ const TabNav = ({ scroll }) => {
           </svg>
         </div>
       </div>
-      <div class={`divider-nav ${scroll && "hidden my-2"}`}></div>
+      <div className={`divider-nav ${scroll && "hidden my-2"}`}></div>
     </div>
   );
 };

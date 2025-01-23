@@ -7,7 +7,7 @@ const Newsletter = () => {
       className="object-fit h-96 mt-12 flex justify-center "
       style={{ backgroundImage: "url('./assets/images/banner-2.webp')" }}
     >
-      <div class="">
+      <div className="">
         <Image
           src="/assets/images/bg-blue.png"
           alt="Newsletter"
@@ -20,7 +20,7 @@ const Newsletter = () => {
         />
       </div>
       <div className="text-white text-center flex " style={{ width: "800px" }}>
-        <div class="flex-1 flex items-end justify-center">
+        <div className="flex-1 flex items-end justify-center">
           <img
             src="https://ik.imagekit.io/tvlk/image/imageResource/2023/07/03/1688370082420-ea9f0f5530ce9e6a7b36fcec8aa60664.png?tr=q-75"
             alt=""
@@ -33,21 +33,21 @@ const Newsletter = () => {
             }}
           />
         </div>
-        <div class="flex flex-row flex-1 z-10 items-center">
-          <div class="">
+        <div className="flex flex-row flex-1 z-10 items-center">
+          <div className="">
             <h1 className="text-left text-xl font-bold">
               Dapatkan info terbaru seputar tips perjalanan, rekomendasi, serta
               promo.
             </h1>
-            <div class="flex">
+            <div className="flex">
               <div className="flex">
                 <label
                   for="email"
-                  class="block text-sm/6 font-medium text-gray-900"
+                  className="block text-sm/6 font-medium text-gray-900"
                 ></label>
-                <div class="my-5 gap-3 flex">
-                  <div class="flex items-center rounded-md bg-white pl-3 outline outline-1 -outline-offset-1 outline-gray-300 has-[input:focus-within]:outline has-[input:focus-within]:outline-2 has-[input:focus-within]:-outline-offset-2 has-[input:focus-within]:outline-indigo-600">
-                    <div class="shrink-0 select-none text-base text-gray-500 sm:text-sm/6">
+                <div className="my-5 gap-3 flex">
+                  <div className="flex items-center rounded-md bg-white pl-3 outline outline-1 -outline-offset-1 outline-gray-300 has-[input:focus-within]:outline has-[input:focus-within]:outline-2 has-[input:focus-within]:-outline-offset-2 has-[input:focus-within]:outline-indigo-600">
+                    <div className="shrink-0 select-none text-base text-gray-500 sm:text-sm/6">
                       <svg
                         width="24"
                         height="24"
@@ -66,10 +66,10 @@ const Newsletter = () => {
                       type="email"
                       name="email"
                       id="email"
-                      class="block min-w-0 grow py-1.5 pl-1 pr-3 text-base text-gray-900 placeholder:text-gray-400 focus:outline focus:outline-0 sm:text-sm/6"
+                      className="block min-w-0 grow py-1.5 pl-1 pr-3 text-base text-gray-900 placeholder:text-gray-400 focus:outline focus:outline-0 sm:text-sm/6"
                       placeholder="Alamat Emailmu"
                     />
-                    <button class="">Subscribe</button>
+                    <button className="">Subscribe</button>
                   </div>
                 <button className="bg-orange-500 rounded-md block min-w-0 grow  text-base text-white placeholder:text-gray-400 focus:outline focus:outline-0 sm:text-sm/6 px-3 py-1">
                   Subcriber

@@ -48,7 +48,7 @@ const Nav = ({ changes = false, display="fixed" }) => {
     </div>
       <nav className="">
         <div className="navbar flex-between w-full py-2">
-          <Link href="/app" className="flex gap-2 flex-center ">
+          <Link href="/" className="flex gap-2 flex-center ">
             {/* Logo */}
             <Image
               src={changes || isScrolled ? "assets/images/logo.svg" : "https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/f/fbab4f587da2242fbe9858fe3e5ba717.svg"}
@@ -67,10 +67,10 @@ const Nav = ({ changes = false, display="fixed" }) => {
                 </Link> */}
                 
                 <Link className="px-3 py-2 hover:rounded-md hover:bg-black hover:bg-opacity-30" href="/">Promo</Link>
-                <Link className="hover:bg-black px-3 py-2 hover:rounded-md hover:bg-opacity-30 " href="/app">Bantuan</Link>
-                <Link className="px-3 py-2 hover:rounded-md hover:bg-black hover:bg-opacity-30" href="/app">Jadi Mitra</Link>
-                <Link className="px-3 py-2 hover:rounded-md hover:bg-black hover:bg-opacity-30" href="/app">For Corporates</Link>
-                <Link className="px-3 py-2 hover:rounded-md hover:bg-black hover:bg-opacity-30" href="/app">Pesanan</Link>
+                <Link className="hover:bg-black px-3 py-2 hover:rounded-md hover:bg-opacity-30 " href="/">Bantuan</Link>
+                <Link className="px-3 py-2 hover:rounded-md hover:bg-black hover:bg-opacity-30" href="/">Jadi Mitra</Link>
+                <Link className="px-3 py-2 hover:rounded-md hover:bg-black hover:bg-opacity-30" href="/">For Corporates</Link>
+                <Link className="px-3 py-2 hover:rounded-md hover:bg-black hover:bg-opacity-30" href="/">Pesanan</Link>
                 <Link className={`px-3 py-2 hover:rounded-md hover:bg-black hover:bg-opacity-30 outline_btn ${isScrolled || display=='fixed' ? "text-black" : "text-white"}`} href="/login">
                   Log in
                 </Link>

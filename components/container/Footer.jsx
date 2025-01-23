@@ -4,7 +4,7 @@ import PartnerFooter from "@components/presentational/PartnerFooter";
 export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white py-10 sticky ">
-      <div class="master">
+      <div className="master">
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-5 gap-8">
           {/* Column 1: Logo dan Partner Pembayaran */}
           {/* <div>
