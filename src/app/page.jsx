@@ -8,8 +8,9 @@ import Ads from "@components/presentational/Ads";
 import CouponList from "@components/container/CouponList";
 import Newsletter from "@components/container/Newsletter";
 import { useState, useEffect } from "react";
-import Tab from "@components/presentational/Tab";
 import ContentGridSection from "@components/container/ContentGridSection";
+import SearchInput from "@components/presentational/SearchInput";
+import InputHotel from "@components/presentational/InputHotel";
 
 const Home = () => {
   // const vocationSpot = [
@@ -42,8 +43,8 @@ const Home = () => {
   }, []);
   
   return (
-    <section className="w-full flex flex-center flex-col pt-28">
-      <div className="min-h-screen flex justify-center items-center flex-col" >
+    <section className="w-full flex flex-center flex-col">
+      {/* <div className="min-h-screen flex justify-center items-center flex-col" >
         <h1 className="head_text text-center">Discover & Share
         <br className="max-md:hidden"/> 
         <span className="orange_gradient text-center">AI Powered Prompts</span>
@@ -51,7 +52,10 @@ const Home = () => {
         <p className="desc text-center">
           Promtopia is open source ai prompting tool for modern world to discover, create and share creative prompt
         </p>
-      </div>
+      </div> */}
+
+      {/* <SearchInput/> */}
+      <InputHotel/>
 
       {/* {ads()} */}
       <Ads/>
@@ -61,7 +65,7 @@ const Home = () => {
 
 
       {/* Content Grid */}
-      <ContentGridSection data={data} />
+      <ContentGridSection data={data.promos[0]} />
 
       {/* Feed Section */}
       {/* <Feed /> */}
@@ -69,8 +73,11 @@ const Home = () => {
       {/* Card Section */}
       <CardList data={data.vocationSpots}/>
 
+      {/* Trending */}
+      <ContentGridSection data={data.trending[0]}/>
+
       {/* TAB */}
-      <Tab/>
+      {/* <Tab/> */}
 
 
     </section>

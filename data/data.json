@@ -35,6 +35,8 @@
     {
       "id": "1",
       "title": "Promo terbaik buat liburan irit!",
+      "type": "banner",
+      "more": "See more promotions",
       "buttons": [
         {
           "label": "Flight",
@@ -55,6 +57,76 @@
       ],
       "description": "Get 10% off on your next purchase.",
       "expiryDate": "2025-02-01"
+    }
+  ],
+  "trending": [
+    {
+      "id": "1",
+      "title": "Aktivitas Trending",
+      "type": "vocation",
+      "more": "See more promotions",
+      "buttons": [
+        {
+          "label": "Flight",
+          "iconUrl": "https://de2sjuwtxpj10.cloudfront.net/imageResource/sectionFilterIcon/8df18828-a870-4210-8d42-1eae6ab2e58e"
+        },
+        {
+          "label": "Hotel",
+          "iconUrl": "https://de2sjuwtxpj10.cloudfront.net/imageResource/sectionFilterIcon/8df18828-a870-4210-8d42-1eae6ab2e58e"
+        },
+        {
+          "label": "Car",
+          "iconUrl": "https://de2sjuwtxpj10.cloudfront.net/imageResource/sectionFilterIcon/8df18828-a870-4210-8d42-1eae6ab2e58e"
+        },
+        {
+          "label": "Attraction",
+          "iconUrl": "https://de2sjuwtxpj10.cloudfront.net/imageResource/sectionFilterIcon/8df18828-a870-4210-8d42-1eae6ab2e58e"
+        }
+      ],
+      "description": "Get 10% off on your next purchase.",
+      "expiryDate": "2025-02-01"
+    }
+  ],
+  "listhotels": [
+    {
+      "id": "1",
+      "title": "Hotel 1",
+      "description": "5 stars",
+      "price": 1000,
+      "rating": 4.5,
+      "imageUrl": "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10007574-1bf9cff5ec02e9014cb07c9b0d05bf26.jpeg?_src=imagekit&tr=f-jpg,fo-auto,h-161,pr-true,q-80,w-300"
+    },
+    {
+      "id": "2",
+      "title": "Hotel 2",
+      "description": "5 stars",
+      "price": 1000,
+      "rating": 4.5,
+      "imageUrl": "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10007851-1025x1536-FIT_AND_TRIM-96a5880255c375ae2707b93f5711a2e5.jpeg?_src=imagekit&tr=f-jpg,fo-auto,h-161,pr-true,q-80,w-300"
+    },
+    {
+      "id": "3",
+      "title": "Hotel 3",
+      "description": "5 stars",
+      "price": 1000,
+      "rating": 4.5,
+      "imageUrl": "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/20072929-e4e92631c24cefbd4f9f735fe72be4ff.jpeg?_src=imagekit&tr=f-jpg,fo-auto,h-161,pr-true,q-80,w-300"
+    },
+    {
+      "id": "4",
+      "title": "Hotel 4",
+      "description": "5 stars",
+      "price": 1000,
+      "rating": 4.5,
+      "imageUrl": "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20020075-dd8d34974282a37964b9d9697835500d.jpeg?_src=imagekit&tr=f-jpg,fo-auto,h-161,pr-true,q-80,w-300"
+    },
+    {
+      "id": "5",
+      "title": "Hotel 5",
+      "description": "5 stars",
+      "price": 1000,
+      "rating": 4.5,
+      "imageUrl": "https://ik.imagekit.io/tvlk/image/imageResource/2023/06/14/1686721653524-bc0f2c3fffd4aeef0625f80be707e47e.png?tr=q-75,w-256"
     }
   ]
 }

@@ -28,43 +28,25 @@ export const metadata = {
   },
 }
 
-const RootLayout = ({ children }) => {
+const Layout = ({ children }) => {
   return (
     <html lang="en">
-      <head>
-        <script
-          type="text/javascript"
-          src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"
-        ></script>
-        <script
-          type="text/javascript"
-          src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"
-        ></script>
-        <script
-          type="text/javascript"
-          src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"
-        ></script>
-        <link
-          rel="stylesheet"
-          type="text/css"
-          href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css"
-        />
-      </head>
+    
       <body>
         {/* <div className='main'>
           <div className='gradient'/>
         </div> */}
 
-        <Nav changes={false} />
+        <Nav changes={true} />
 
-        <HeroSection />
-        <main className="app">{children}</main>
+        {/* <HeroSection /> */}
+        <main className="">{children}</main>
 
-        <Newsletter />
+        {/* <Newsletter /> */}
         <Footer />
       </body>
     </html>
   );
 }
 
-export default RootLayout;
+export default Layout;

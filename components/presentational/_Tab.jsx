@@ -1,7 +1,13 @@
 import React from "react";
 
-const tab = () => {
-
+const tab = ({scroll}) => {
+  // checkRealTime = () => {
+  //   console.log('scroll',scroll);
+  // }
+  // setInterval(() => {
+  //   console.log('scroll',scroll);
+  // }, 1000);
+  // console.log('isi dari scroll',scroll);
   return (
     <div>
       <div className="tabs">

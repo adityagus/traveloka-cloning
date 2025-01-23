@@ -1,21 +1,26 @@
-import Image from 'next/image';
-import React from 'react'
-import PromoSwiper from '@components/presentational/PromoSwiper';
-import data from '@data/data.json'
+import Image from "next/image";
+import React from "react";
+import PromoSwiper from "@components/presentational/PromoSwiper";
+import TrendingSwiper from "@components/presentational/TrendingSwiper";
 
-function ButtonTab({title}) {
+function ButtonTab({ title }) {
   console.log(title);
-    return (<div className='flex gap-2 py-2 px-3'>
-          <button className="bg-gray-100 hover:bg-gray-200 text-colors-primary-blue rounded-full px-5 py-1 text-sm font-semibold flex items-center justify-between gap-1" type="button"><span>
-            <img className='w-4' src="https://de2sjuwtxpj10.cloudfront.net/imageResource/sectionFilterIcon/8df18828-a870-4210-8d42-1eae6ab2e58e" alt="Attraction Icon" />
-          </span> {title}</button>
-        </div>);
+  return (
+    <button className="grey_btn rounded-full" type="button">
+      <span>
+        <img
+          className="w-4"
+          src="https://de2sjuwtxpj10.cloudfront.net/imageResource/sectionFilterIcon/8df18828-a870-4210-8d42-1eae6ab2e58e"
+          alt="Attraction Icon"
+        />
+      </span>{" "}
+      {title}
+    </button>
+  );
 }
 
-
-const ContentGridSection = () => {
-  const result = data.promos[0]
-  
+const ContentGridSection = ({ data }) => {
+  console.log("data", data);
   return (
     <div className="master w-full text-left my-8">
       <div className="">
@@ -23,17 +28,25 @@ const ContentGridSection = () => {
           <img
             src="https://ik.imagekit.io/tvlk/image/imageResource/2023/05/31/1685509983611-a25f46a53c13da46a43bf8f542076cd2.png?_src=imagekit&tr=q-40,h-24"
             alt=""
-            style={{ "height": "24px" }}
+            style={{ height: "24px" }}
           />
-          <h1 className="text-2xl font-bold">{result.title}</h1>
+          <h1 className="text-2xl font-bold">{data.title}</h1>
         </div>
-        <ButtonTab title="Flight" onClick={() => {}} />
-        <PromoSwiper />
+
+        <div className="flex gap-2 py-2 px-3">
+          {(data.buttons || []).map((item, index) => (
+            <ButtonTab key={index} title={item.label} />
+          ))}
+          {/* <ButtonTab title="Flight" onClick={() => {}} /> */}
+        </div>
+        {data.type === "banner" ? <PromoSwiper /> : <TrendingSwiper />}
       </div>
-      <div></div>
+      <div className="flex justify-center">
+        <button className="grey_btn rounded-md">{data.more}</button>
+      </div>
       <div></div>
     </div>
   );
-}
+};
 
 export default ContentGridSection;

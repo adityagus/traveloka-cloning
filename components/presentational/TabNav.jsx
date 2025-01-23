@@ -1,25 +1,38 @@
-import Link from 'next/link';
+import Link from "next/link";
 
-const TabNav = () => {
+const TabNav = ({ scroll }) => {
+  // console.log('TabNav', scroll);
+
   return (
-    <div className="font-bold flex text-gray-400 text-sm gap-5 md:gap-8 items-center">
-      <Link href="/">Hotel</Link>
-      <Link href="/">Tiket Pesawat</Link>
-      <Link href="/">Tiket Kereta Api</Link>
-      <Link href="/">Tiket Bus & Travel</Link>
-      <Link href="/">Antar Jemput Bandara</Link>
-      <Link href="/">Rental Mobil</Link>
-      <Link href="/">Atraksi dan Aktivitas</Link>
+    <div
+      className={`font-bold flex py-2 text-sm gap-5 md:gap-8 items-center sm:flex max-sm:hidden bg-dark navbar ${
+        scroll ? "text-gray-400" : "text-white"
+      }`}
+    >
+      <Link href="/hotels">Hotels</Link>
+      <Link href="/">Flights</Link>
+      <Link href="/">Trains</Link>
+      <Link href="/">Bus & Travel</Link>
+      <Link href="/">Airport Transfer</Link>
+      <Link href="/">Car Rental</Link>
+      <Link href="/">Things to Do</Link>
       <div className="flex items-center justify-center">
-      <Link className='' href="/">Produk Lainnya</Link>
+        <Link className="" href="/">
+          More{" "}
+        </Link>
 
-      <svg className="w-3 h-3 text-gray-500 justify-center items-center text-center flex" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 28 28" stroke="currentColor">
-                        <path d="M19 9l-7 7-7-7"></path>
-                      </svg>
+        <svg
+          className="w-3 h-3 text-gray-500 justify-center items-center text-center flex"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 28 28"
+          stroke="currentColor"
+        >
+          <path d="M19 9l-7 7-7-7"></path>
+        </svg>
       </div>
-      
     </div>
-  )
-}
+  );
+};
 
-export default TabNav
+export default TabNav;

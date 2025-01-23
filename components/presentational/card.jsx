@@ -4,7 +4,7 @@ const Card = ({ title, description, imageUrl }) => {
   
   
   return (
-    <div className="relative max-w-sm rounded-lg overflow-hidden shadow-md">
+    <div className="relative rounded-lg overflow-hidden shadow-md">
       {/* Gambar */}
       <img
         src={imageUrl}
