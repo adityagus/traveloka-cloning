@@ -109,7 +109,7 @@
 }
 
 .outline_btn {
-  @apply rounded-md border border-[#0194F3] bg-transparent py-1.5 px-5 text-black transition-all hover:bg-gray-300 hover:text-black text-center text-sm font-inter flex items-center justify-center;
+  @apply rounded-md border border-[#0194F3] bg-transparent py-1.5 px-5 transition-all hover:bg-gray-300 hover:text-black text-center text-sm font-inter flex items-center justify-center;
 }
 
 .head_text {

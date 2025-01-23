@@ -1,0 +1,24 @@
+import React from "react";
+
+const PartnerCard = () => {
+  return (
+    <div class="grid grid-cols-3 master px-28">
+      <div class="col-span-1">
+        <h2 class="text-2xl font-bold">Partner Hotel</h2>
+        <span class="text-sm mt-2 text-gray-500">
+          Partner Hotel di Dalam & Luar Negeri
+        </span>
+        <p className="mt-4">
+          Kami bekerja sama dengan berbagai jaringan hotel di seluruh dunia
+          untuk memastikan kenyamanan Anda saat menginap di belahan dunia
+          manapun!
+        </p>
+      </div>
+      <div class="col-span-2">
+        <img src="assets/images/partner.png" alt="partner" />
+      </div>
+    </div>
+  );
+};
+
+export default PartnerCard;

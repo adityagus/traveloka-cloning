@@ -1,13 +1,13 @@
 "use client";
 
+import React from "react";
 import { useRef, useState } from "react";
 import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 // Import Swiper styles
 import "swiper/css";
-// import 'swiper/css/navigation';
 
-const PromoSwiper = () => {
+const TrendingSwiper = () => {
   const swiper = useSwiper();
   const navigationNextRef = useRef(null);
   const navigationPrevRef = useRef(null);
@@ -17,23 +17,18 @@ const PromoSwiper = () => {
 
   const promos = [
     {
-      image: "/assets/images/promo1.webp",
+      title: "Ancol",
+      image: "/assets/images/partner-1.png",
       alt: "Selalu Ada Promo di Dalam Negeri",
     },
     {
-      image: "/assets/images/promo2.webp",
+      title: "Ancol",
+      image: "/assets/images/partner-2.png",
       alt: "Siapin Liburan Akhir & Awal Tahun",
     },
     {
-      image: "/assets/images/promo3.webp",
-      alt: "Asupan Harian buat ke Destinasi Impian",
-    },
-    {
-      image: "/assets/images/promo3.webp",
-      alt: "Asupan Harian buat ke Destinasi Impian",
-    },
-    {
-      image: "/assets/images/promo3.webp",
+      title: "Gambir",
+      image: "/assets/images/partner-3.png",
       alt: "Asupan Harian buat ke Destinasi Impian",
     },
   ];
@@ -78,26 +73,34 @@ const PromoSwiper = () => {
     >
       {promos.map((promo, index) => (
         <SwiperSlide key={index}>
-          <div
-            style={{
-              borderRadius: "10px",
-              overflow: "hidden",
-              boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
-            }}
-          >
-            <img
-              src={promo.image}
-              alt={promo.alt}
-              style={{ width: "100%", height: "auto", objectFit: "cover" }}
-            />
-          </div>
+            <div className="my-8 master">
+              {/* Title */}
+              {/* Container for Cards */}
+              <div className="grid grid-cols-1 gap-6">
+                {/* Map over the cards array to render each card */}
+                  <div
+                    key={index}
+                    className="col-span-2 bg-white rounded-lg shadow-lg">
+                    <img
+                      src={promo.image}
+                      alt={promo.title}
+                      className="w-full h-48 object-cover rounded-md mb-4"
+                    />
+                    <h3 className="text-xl font-semibold">{promo.title}</h3>
+                    <p className="text-gray-600 mt-2">{promo.description}</p>
+                  </div>
+              </div>
+            </div>
           {/* <img src={promo.image} alt={promo.alt} /> */}
         </SwiperSlide>
       ))}
 
       {/* Tombol navigasi ke kiri */}
-      <button className="nav-button prev" ref={navigationPrevRef}
-      style={{ opacity: isBeginning ? "0" : "100", }}>
+      <button
+        className="nav-button prev"
+        ref={navigationPrevRef}
+        style={{ opacity: isBeginning ? "0" : "100" }}
+      >
         <span>
           <svg
             height="512px"
@@ -112,8 +115,11 @@ const PromoSwiper = () => {
       </button>
 
       {/* Tombol navigasi ke kanan */}
-      <button className="nav-button next" ref={navigationNextRef} 
-      style={{ opacity: isEnd ? "0" : "100", }}>
+      <button
+        className="nav-button next"
+        ref={navigationNextRef}
+        style={{ opacity: isEnd ? "0" : "100" }}
+      >
         <span>
           <svg
             height="512px"
@@ -130,4 +136,4 @@ const PromoSwiper = () => {
   );
 };
 
-export default PromoSwiper;
+export default TrendingSwiper;

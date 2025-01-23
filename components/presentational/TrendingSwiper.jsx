@@ -23,7 +23,7 @@ const TrendingSwiper = () => {
     },
     {
       title: "Ancol",
-      image: "/assets/images/promo2.webp",
+      image: "https://ik.imagekit.io/tvlk/xpe-asset/AyJ40ZAo1DOyPyKLZ9c3RGQHTP2oT4ZXW+QmPVVkFQiXFSv42UaHGzSmaSzQ8DO5QIbWPZuF+VkYVRk6gh-Vg4ECbfuQRQ4pHjWJ5Rmbtkk=/2000364679993/Ancol-Entrance-Gate-085b2a15-1ac2-47b8-aaf0-fcb5f88f147c.jpeg?_src=imagekit&tr=c-at_max,h-569,q-60,w-320",
       alt: "Siapin Liburan Akhir & Awal Tahun",
     },
     {
@@ -96,7 +96,7 @@ const TrendingSwiper = () => {
                       alt={promo.title}
                       className="w-full h-48 object-cover rounded-md mb-4"
                     />
-                    <h3 className="text-xl font-semibold">{promo.title}</h3>
+                    <h3 className="text-xl font-semibold text-black">{promo.title}</h3>
                     <p className="text-gray-600 mt-2">{promo.description}</p>
                   </div>
               </div>

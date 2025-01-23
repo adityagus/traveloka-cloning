@@ -1,7 +1,8 @@
 import Image from "next/image";
 import React from "react";
-import PromoSwiper from "@components/presentational/PromoSwiper";
+import PromoSwiper from "@components/presentational/SwiperCard";
 import TrendingSwiper from "@components/presentational/TrendingSwiper";
+import SwiperCard from "@components/presentational/SwiperCard";
 
 function ButtonTab({ title }) {
   console.log(title);
@@ -20,7 +21,7 @@ function ButtonTab({ title }) {
 }
 
 const ContentGridSection = ({ data }) => {
-  console.log("data", data);
+  console.log("data grid section", data.cards);
   return (
     <div className="master w-full text-left my-8">
       <div className="">
@@ -39,7 +40,7 @@ const ContentGridSection = ({ data }) => {
           ))}
           {/* <ButtonTab title="Flight" onClick={() => {}} /> */}
         </div>
-        {data.type === "banner" ? <PromoSwiper /> : <TrendingSwiper />}
+        <SwiperCard cards={data.cards} type={data.type}/>
       </div>
       <div className="flex justify-center">
         <button className="grey_btn rounded-md">{data.more}</button>

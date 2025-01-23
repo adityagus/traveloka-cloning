@@ -55,6 +55,28 @@
           "iconUrl": "https://de2sjuwtxpj10.cloudfront.net/imageResource/sectionFilterIcon/8df18828-a870-4210-8d42-1eae6ab2e58e"
         }
       ],
+      "cards": [
+      {
+        "image": "/assets/images/promo1.webp",
+        "alt": "Selalu Ada Promo di Dalam Negeri"
+      },
+      {
+        "image": "/assets/images/promo2.webp",
+        "alt": "Siapin Liburan Akhir & Awal Tahun"
+      },
+      {
+        "image": "/assets/images/promo3.webp",
+        "alt": "Asupan Harian buat ke Destinasi Impian"
+      },
+      {
+        "image": "/assets/images/promo3.webp",
+        "alt": "Asupan Harian buat ke Destinasi Impian"
+      },
+      {
+        "image": "/assets/images/promo3.webp",
+        "alt": "Asupan Harian buat ke Destinasi Impian"
+      }
+      ] ,
       "description": "Get 10% off on your next purchase.",
       "expiryDate": "2025-02-01"
     }
@@ -83,6 +105,53 @@
           "iconUrl": "https://de2sjuwtxpj10.cloudfront.net/imageResource/sectionFilterIcon/8df18828-a870-4210-8d42-1eae6ab2e58e"
         }
       ],
+      "cards": [
+      {
+        "title": "Tiket Dufan Ancol",
+        "tag": "Ancol",
+        "image": "https://ik.imagekit.io/tvlk/xpe-asset/AyJ40ZAo1DOyPyKLZ9c3RGQHTP2oT4ZXW+QmPVVkFQiXFSv42UaHGzSmaSzQ8DO5QIbWPZuF+VkYVRk6gh-Vg4ECbfuQRQ4pHjWJ5Rmbtkk=/2001186750067/Dufan-Ancol-Tickets-a813e980-43b7-4673-989b-f0831f0b14ff.jpeg?_src=imagekit&tr=c-at_max,h-569,q-60,w-320",
+        "alt": "Selalu Ada Promo di Dalam Negeri",
+        "price": 150000,
+        "rating": "9.2/10",
+        "customer": "2232"
+      },
+      {
+        "title": "Tiket Pintu Gerbang Utama Ancol",
+        "tag": "Ancol",
+        "image": "https://ik.imagekit.io/tvlk/xpe-asset/AyJ40ZAo1DOyPyKLZ9c3RGQHTP2oT4ZXW+QmPVVkFQiXFSv42UaHGzSmaSzQ8DO5QIbWPZuF+VkYVRk6gh-Vg4ECbfuQRQ4pHjWJ5Rmbtkk=/2000364679993/Ancol-Entrance-Gate-085b2a15-1ac2-47b8-aaf0-fcb5f88f147c.jpeg?_src=imagekit&tr=c-at_max,h-569,q-60,w-320",
+        "alt": "Selalu Ada Promo di Dalam Negeri",
+        "price": 150000,
+        "rating": "9.2/10",
+        "customer": "2232"
+      },
+      {
+        "title": "Tiket Pintu Gerbang Utama Ancol",
+        "tag": "Ancol",
+        "image": "https://ik.imagekit.io/tvlk/xpe-asset/AyJ40ZAo1DOyPyKLZ9c3RGQHTP2oT4ZXW+QmPVVkFQiXFSv42UaHGzSmaSzQ8DO5QIbWPZuF+VkYVRk6gh-Vg4ECbfuQRQ4pHjWJ5Rmbtkk=/2002053221267/Sea-World-Ancol-Tickets-07f2ff6b-6f07-46aa-a52d-1b43173ae69a.jpeg?_src=imagekit&tr=c-at_max,h-569,q-60,w-320",
+        "alt": "Asupan Harian buat ke Destinasi Impian",
+        "price": 150000,
+        "rating": "9.2/10",
+        "customer": "2232"
+      },
+      {
+        "title": "Tiket Pintu Gerbang Utama Ancol",
+        "tag": "Ancol",
+        "image": "https://ik.imagekit.io/tvlk/xpe-asset/AyJ40ZAo1DOyPyKLZ9c3RGQHTP2oT4ZXW+QmPVVkFQiXFSv42UaHGzSmaSzQ8DO5QIbWPZuF+VkYVRk6gh-Vg4ECbfuQRQ4pHjWJ5Rmbtkk=/4484433519186/Museum-Nasional-Indonesia-1ea6bc44-f8a3-4ae9-bab7-18e1a9dfbd6c.png?_src=imagekit&tr=c-at_max,h-569,q-60,w-320",
+        "alt": "Asupan Harian buat ke Destinasi Impian",
+        "price": 150000,
+        "rating": "9.2/10",
+        "customer": "2232"
+      },
+      {
+        "title": "Tiket Pintu Gerbang Utama Ancol",
+        "tag": "Ancol",
+        "image": "https://ik.imagekit.io/tvlk/xpe-asset/AyJ40ZAo1DOyPyKLZ9c3RGQHTP2oT4ZXW+QmPVVkFQiXFSv42UaHGzSmaSzQ8DO5QIbWPZuF+VkYVRk6gh-Vg4ECbfuQRQ4pHjWJ5Rmbtkk=/4484433519186/Museum-Nasional-Indonesia-1ea6bc44-f8a3-4ae9-bab7-18e1a9dfbd6c.png?_src=imagekit&tr=c-at_max,h-569,q-60,w-320",
+        "alt": "Asupan Harian buat ke Destinasi Impian",
+        "price": 150000,
+        "rating": "9.2/10",
+        "customer": "2232"
+      }
+      ] ,
       "description": "Get 10% off on your next purchase.",
       "expiryDate": "2025-02-01"
     }
@@ -128,5 +197,76 @@
       "rating": 4.5,
       "imageUrl": "https://ik.imagekit.io/tvlk/image/imageResource/2023/06/14/1686721653524-bc0f2c3fffd4aeef0625f80be707e47e.png?tr=q-75,w-256"
     }
+  ],
+  "hotelData": [
+    {
+      "images": [
+        "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10002404-1280x718-FIT_AND_TRIM-1b3c8363682b1c1f75dcfdfad3a29964.jpeg?_src=imagekit&tr=f-jpg,fo-auto,h-161,pr-true,q-80,w-300",
+        "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10002404-1169x900-FIT_AND_TRIM-d7981a222fbf0ff98b056539d8302688.jpeg?_src=imagekit&tr=f-jpg,fo-auto,h-64,pr-true,q-80,w-98.66666666666667",
+        "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10002404-2060x1247-FIT_AND_TRIM-9ddbe436b041daf5b4d3138950821434.jpeg?_src=imagekit&tr=f-jpg,fo-auto,h-64,pr-true,q-80,w-98.66666666666667",
+        "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10002404-800x600-FIT_AND_TRIM-67c3e43035a2e80d45983749bd1bf471.jpeg?_src=imagekit&tr=f-jpg,fo-auto,h-64,pr-true,q-80,w-98.66666666666667"
+      ],
+      "title": "The Trans Luxury Hotel",
+      "location": "Buahbatu, Bandung",
+      "rating": "9.0",
+      "reviews": "6,300",
+      "features": [
+        "Klub anak",
+        "Layanan pijat",
+        "Pusat kebugaran",
+        "Fasilitas bisnis",
+        "Sauna",
+        "Bar"
+      ],
+      "cancellation": "Gratis Pembatalan",
+      "oldPrice": 1735186,
+      "newPrice": 1613677
+    },
+    {
+      "images": [
+        "https://ik.imagekit.io/tvlk/apr-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/10005168-55dd5f3c9d961f87679b1185bf8afa53.jpeg?_src=imagekit&tr=f-jpg,fo-auto,h-161,pr-true,q-80,w-300",
+        "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10005168-21fea1b05ab0a0dbaf6df0dfd7d9990f.jpeg?_src=imagekit&tr=f-jpg,fo-auto,h-64,pr-true,q-80,w-98.66666666666667",
+        "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10005168-b270f74088e84b3c32974195f2390f07.jpeg?_src=imagekit&tr=f-jpg,fo-auto,h-64,pr-true,q-80,w-98.66666666666667",
+        "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10005168-24a8923c3192589ff24a771fe6d1df2b.jpeg?_src=imagekit&tr=f-jpg,fo-auto,h-64,pr-true,q-80,w-98.66666666666667"
+      ],
+      "title": "Hilton Bandung",
+      "location": "Cihampelas, Bandung",
+      "rating": "8.8",
+      "reviews": "4,500",
+      "features": [
+        "Kolam renang",
+        "Restoran",
+        "Wi-Fi gratis",
+        "Pusat kebugaran",
+        "Parkir gratis"
+      ],
+      "cancellation": "Gratis Pembatalan",
+      "oldPrice": 1500000,
+      "newPrice": 1350000
+    },
+    {
+      "images": [
+        "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10005852-74cec5c09a205d330e8ea53709797fc4.jpeg?_src=imagekit&tr=f-jpg,fo-auto,h-161,pr-true,q-80,w-300",
+        "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10005852-a69312a1773bceb4761f41bf0b61bca1.jpeg?_src=imagekit&tr=f-jpg,fo-auto,h-64,pr-true,q-80,w-98.66666666666667",
+        "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10005852-3526fb241f984ba68f768bc8c9192f34.jpeg?_src=imagekit&tr=f-jpg,fo-auto,h-64,pr-true,q-80,w-98.66666666666667",
+        "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10005852-15ce48af71f8af12308137de1d07eb71.jpeg?_src=imagekit&tr=f-jpg,fo-auto,h-64,pr-true,q-80,w-98.66666666666667"
+      ],
+      "title": "Padma Hotel Bandung",
+      "location": "Ciumbuleuit, Bandung",
+      "rating": "9.5",
+      "reviews": "7,200",
+      "features": [
+        "Pemandangan indah",
+        "Kolam renang infinity",
+        "Spa & sauna",
+        "Wi-Fi gratis",
+        "Parkir gratis"
+      ],
+      "cancellation": "Gratis Pembatalan",
+      "oldPrice": 2000000,
+      "newPrice": 1800000
+    }
   ]
+  
 }
+

@@ -40,12 +40,12 @@ const Newsletter = () => {
               promo.
             </h1>
             <div class="flex">
-              <div className="flex gap-2">
+              <div className="flex">
                 <label
                   for="email"
                   class="block text-sm/6 font-medium text-gray-900"
                 ></label>
-                <div class="my-5 mr-2 flex">
+                <div class="my-5 gap-3 flex">
                   <div class="flex items-center rounded-md bg-white pl-3 outline outline-1 -outline-offset-1 outline-gray-300 has-[input:focus-within]:outline has-[input:focus-within]:outline-2 has-[input:focus-within]:-outline-offset-2 has-[input:focus-within]:outline-indigo-600">
                     <div class="shrink-0 select-none text-base text-gray-500 sm:text-sm/6">
                       <svg
@@ -71,7 +71,7 @@ const Newsletter = () => {
                     />
                     <button class="">Subscribe</button>
                   </div>
-                <button className="mt-2 bg-orange-500 rounded-md block min-w-0 grow  text-base text-white placeholder:text-gray-400 focus:outline focus:outline-0 sm:text-sm/6">
+                <button className="bg-orange-500 rounded-md block min-w-0 grow  text-base text-white placeholder:text-gray-400 focus:outline focus:outline-0 sm:text-sm/6 px-3 py-1">
                   Subcriber
                 </button>
                 </div>
