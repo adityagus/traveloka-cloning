@@ -36,7 +36,7 @@ const Layout = ({ children }) => {
           <div className='gradient'/>
         </div> */}
 
-        <Nav changes={true}/>
+        <Nav changes={true} display='fixed'/>
 
         <main className="">{children}</main>
 

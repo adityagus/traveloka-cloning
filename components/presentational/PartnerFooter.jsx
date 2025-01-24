@@ -90,7 +90,7 @@ const PartnerFooter = () => {
 
   
   return (
-    <div className="grid-flow-col col-span-2">
+    <div className="grid-flow-col col-span-2 max-sm:flex max-sm:flex-col max-sm:justify-center max-sm:items-center">
       <img src='https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/a/ad89f39fe62c8b500e6f9a25fa4427d8.svg'/>
       <div className='flex gap-5 items-center'>
         <Image

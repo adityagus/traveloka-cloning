@@ -160,7 +160,7 @@ const Home = () => {
       </div>
 
       <div className="container grid grid-cols-12 master">
-        <div className="col-span-3 mt-4 mr-4">
+        <div className="col-span-3 max-sm:hidden mt-4 mr-4">
           <div className="">
             <div className="card-image rounded-xl">
               <img
@@ -171,7 +171,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="col-span-9">
+        <div className="col-span-9 max-sm:col-span-12">
           <h1 className="text-2xl font-bold mb-4"></h1>
           {data.hotelData.map((hotel, index) => (
             <HotelCard key={index} {...hotel} />

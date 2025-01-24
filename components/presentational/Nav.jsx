@@ -71,7 +71,7 @@ const Nav = ({ changes = false, display="fixed" }) => {
                 <Link className="px-3 py-2 hover:rounded-md hover:bg-black hover:bg-opacity-30" href="/">Jadi Mitra</Link>
                 <Link className="px-3 py-2 hover:rounded-md hover:bg-black hover:bg-opacity-30" href="/">For Corporates</Link>
                 <Link className="px-3 py-2 hover:rounded-md hover:bg-black hover:bg-opacity-30" href="/">Pesanan</Link>
-                <Link className={`px-3 py-2 hover:rounded-md hover:bg-black hover:bg-opacity-30 outline_btn ${isScrolled || display=='fixed' ? "text-black" : "text-white"}`} href="/login">
+                <Link className={`px-3 py-2 hover:rounded-md hover:bg-black hover:bg-opacity-30 outline_btn ${changes || isScrolled  ? "text-black" : "text-white hover:text-white"}`} href="/login">
                   Log in
                 </Link>
 
@@ -107,6 +107,30 @@ const Nav = ({ changes = false, display="fixed" }) => {
                 </Link>
               </div>
             )}
+          </div>
+
+          {/* Mobile Responsive */}
+          <div className={`flex md:hidden`}>
+            <button
+              type="button"
+              className={`flex gap-3 items-center px-3 py-2 hover:rounded-md hover:bg-black hover:bg-opacity-30 outline_btn  ${changes || isScrolled  ? "text-black" : "text-white"}`}
+              onClick={handleMenuToggle}
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-6 w-6"
+                fill="white"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M4 6h16M4 12h16M4 18h16"
+                />
+              </svg>
+            </button>
           </div>
         </div>
         <Tab scroll={changes || isScrolled} />

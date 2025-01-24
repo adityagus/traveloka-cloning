@@ -55,7 +55,7 @@ const RootLayout = ({ children }) => {
           <div className='gradient'/>
         </div> */}
 
-        <Nav changes={false} />
+        <Nav changes={false} display="fixed" />
 
         <HeroSection />
         <main className="app">{children}</main>
