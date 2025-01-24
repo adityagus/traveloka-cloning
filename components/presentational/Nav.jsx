@@ -51,7 +51,7 @@ const Nav = ({ changes = false, display="fixed" }) => {
           <Link href="/" className="flex gap-2 flex-center ">
             {/* Logo */}
             <Image
-              src={changes || isScrolled ? "assets/images/logo.svg" : "https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/f/fbab4f587da2242fbe9858fe3e5ba717.svg"}
+              src={changes || isScrolled ? "https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/9/97f3e7a54e9c6987283b78e016664776.svg" : "https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/f/fbab4f587da2242fbe9858fe3e5ba717.svg"}
               alt="Traveloka Logo"
               width={150}
               height={150}
