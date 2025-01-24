@@ -24,7 +24,7 @@ const Newsletter = () => {
           <img
             src="https://ik.imagekit.io/tvlk/image/imageResource/2023/07/03/1688370082420-ea9f0f5530ce9e6a7b36fcec8aa60664.png?tr=q-75"
             alt=""
-            className="mb-0 flex items-end"
+            className="mb-0 flex items-end max-sm:hidden"
             style={{
               objectFit: "fill",
               objectPosition: "50% 50%",
