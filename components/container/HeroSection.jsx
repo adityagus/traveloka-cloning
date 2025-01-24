@@ -6,7 +6,7 @@ const HeroSection = () => {
   return (
     <div className="">
       <div className='block text-white object-fit' style={{"backgroundImage": "url('https://ik.imagekit.io/tvlk/image/imageResource/2025/01/05/1736039053734-c2b57da96ac28a1df692de44bc14660b.png?tr=q-75')", "height": '600px'}}>
-      <div className="pt-60">
+      <div className="pt-60 max-sm:pt-44">
         <div className="max-w-screen-xl mx-auto text-center">
           <h1 className="text-4xl font-bold">
             Wujudkan Perjalananmu dengan Caramu

@@ -20,10 +20,10 @@ function ButtonTab({ title }) {
   );
 }
 
-const ContentGridSection = ({ data }) => {
+const ContentGridSection = ({ data, className='' }) => {
   console.log("data grid section", data.cards);
   return (
-    <div className="master w-full text-left my-8">
+    <div className={`master w-full text-left my-8 max-sm:${className}`}>
       <div className="">
         <div className="flex gap-2 pb-4 items-center">
           <img

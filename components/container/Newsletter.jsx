@@ -20,7 +20,7 @@ const Newsletter = () => {
         />
       </div>
       <div className="text-white text-center flex " style={{ width: "800px" }}>
-        <div className="flex-1 flex items-end justify-center">
+        <div className="flex-1 flex items-end justify-center max-sm:hidden">
           <img
             src="https://ik.imagekit.io/tvlk/image/imageResource/2023/07/03/1688370082420-ea9f0f5530ce9e6a7b36fcec8aa60664.png?tr=q-75"
             alt=""
@@ -35,11 +35,11 @@ const Newsletter = () => {
         </div>
         <div className="flex flex-row flex-1 z-10 items-center">
           <div className="">
-            <h1 className="text-left text-xl font-bold">
+            <h1 className="text-left max-sm:text-center text-xl font-bold">
               Dapatkan info terbaru seputar tips perjalanan, rekomendasi, serta
               promo.
             </h1>
-            <div className="flex">
+            <div className="flex justify-center">
               <div className="flex">
                 <label
                   for="email"
