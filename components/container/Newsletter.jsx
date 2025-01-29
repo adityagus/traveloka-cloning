@@ -39,13 +39,13 @@ const Newsletter = () => {
               Dapatkan info terbaru seputar tips perjalanan, rekomendasi, serta
               promo.
             </h1>
-            <div className="flex justify-center">
-              <div className="flex">
+            <div className="flex max-sm:justify-center">
+              <div className="flex max-sm:master my-3">
                 <label
                   for="email"
                   className="block text-sm/6 font-medium text-gray-900"
                 ></label>
-                <div className="my-5 gap-3 flex">
+                <div className="my-5 gap-3 sm:flex">
                   <div className="flex items-center rounded-md bg-white pl-3 outline outline-1 -outline-offset-1 outline-gray-300 has-[input:focus-within]:outline has-[input:focus-within]:outline-2 has-[input:focus-within]:-outline-offset-2 has-[input:focus-within]:outline-indigo-600">
                     <div className="shrink-0 select-none text-base text-gray-500 sm:text-sm/6">
                       <svg
@@ -71,7 +71,7 @@ const Newsletter = () => {
                     />
                     <button className="">Subscribe</button>
                   </div>
-                <button className="bg-orange-500 rounded-md block min-w-0 grow  text-base text-white placeholder:text-gray-400 focus:outline focus:outline-0 sm:text-sm/6 px-3 py-1">
+                <button className="max-sm:my-3 bg-orange-500 rounded-md block min-w-0 grow  text-base text-white placeholder:text-gray-400 focus:outline focus:outline-0 sm:text-sm/6 px-3 py-1">
                   Subcriber
                 </button>
                 </div>

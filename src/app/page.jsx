@@ -63,7 +63,7 @@ const Home = () => {
 
 
       {/* Content Grid */}
-      <ContentGridSection data={data.promos[0]} className="mt-80" />
+      <ContentGridSection data={data.promos[0]} className="max-sm:mt-80" />
 
       {/* Feed Section */}
       {/* <Feed /> */}
