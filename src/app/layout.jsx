@@ -8,25 +8,25 @@ import HeroSection from '@components/container/HeroSection';
 import Head from '@lib/lib';
 
 
-export const metadata = {
-  title: 'Traveloka',
-  description: 'E-commerce website for travel and tourism',
-  keywords: ['travel', 'tourism', 'e-commerce', 'nextjs'],
-  openGraph: {
-    type: 'website',
-    url: 'https://traveloka.com',
+  export const metadata = {
     title: 'Traveloka',
     description: 'E-commerce website for travel and tourism',
-    images: [
-      {
-        url: 'https://traveloka.com/images/traveloka-logo.png',
-        width: 1200,
-        height: 630,
-        alt: 'Traveloka logo',
-      },
-    ],
-  },
-}
+    keywords: ['travel', 'tourism', 'e-commerce', 'nextjs'],
+    openGraph: {
+      type: 'website',
+      url: 'https://traveloka.com',
+      title: 'Traveloka',
+      description: 'E-commerce website for travel and tourism',
+      images: [
+        {
+          url: 'https://traveloka.com/images/traveloka-logo.png',
+          width: 1200,
+          height: 630,
+          alt: 'Traveloka logo',
+        },
+      ],
+    },
+  }
 
 const RootLayout = ({ children }) => {
   return (
