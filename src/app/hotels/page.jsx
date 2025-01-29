@@ -36,6 +36,7 @@ const Home = () => {
   }, []);
 
   return (
+    // hotels page
     <section className="hotels-form w-full flex flex-center flex-col">
       <div className="w-full backgroun bg-blue-400">
         <div className="block mt-48 h-64 text-black object-fit  w-full">
