@@ -108,7 +108,7 @@ const Home = () => {
   return (
     <section className="hotels-form w-full flex flex-center flex-col">
       <div className="w-full background bg-white navbar-2">
-        <div className="block mt-32 h-12 shadow-md text-black object-fit  w-full">
+        <div className="block mt-32 max-sm:mt-16 h-12 shadow-md text-black object-fit  w-full">
           <div className="grid grid-cols-3 master">
             <div className="mt-1 flex items-center rounded-md rounded-r-none bg-white pl-3 outline outline-1 -outline-offset-1 outline-gray-300 has-[input:focus-within]:outline has-[input:focus-within]:outline-2 has-[input:focus-within]:-outline-offset-2 has-[input:focus-within]:outline-colors-primary-blue">
             <div className="shrink-0 select-none text-base text-gray-500 sm:text-sm/6">
