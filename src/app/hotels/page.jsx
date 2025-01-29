@@ -43,7 +43,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="bg-white -mt-52 rounded-xl shadow-lg" style={{ width: "800px" }}>
+      <div className="bg-white -mt-52 rounded-xl shadow-lg overflow-x-scroll" style={{ width: "800px" }}>
         <div className="bg-slate-300 text-colors-primary-blue py-4 rounded-t-lg flex gap-2 px-2 font-medium">
           <span>
             <svg
