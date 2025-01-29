@@ -168,7 +168,7 @@ const Home = () => {
             <div className="input ml-4">
               <br className="mb-3"/>
               <div className={`mt-1 flex items-center rounded-md bg-orange-500  outline outline-1 -outline-offset-1 outline-orange-500 has-[input:focus-within]:outline has-[input:focus-within]:outline-2 has-[input:focus-within]:-outline-offset-2 has-[input:focus-within]:outline-colors-primary-blue ${isLoading && "hidden"}`}>
-              <button className="bg-orange-500 hover:bg-orange-600 rounded-md block min-w-0 grow  text-base text-white placeholder:text-gray-400 focus:outline focus:outline-0 sm:text-sm/6 px-3 py-1" onClick={() => { setLoading(true); setTimeout(() => {setLoading(false); window.open('/list-hotels')}, 2500)}}>
+              <button className="max-sm:text-sm max-sm:my-1 bg-orange-500 hover:bg-orange-600 rounded-md block min-w-0 grow  text-base text-white placeholder:text-gray-400 focus:outline focus:outline-0 sm:text-sm/6 px-3 py-1" onClick={() => { setLoading(true); setTimeout(() => {setLoading(false); window.open('/list-hotels')}, 2500)}}>
                     Cari Hotel
                   </button>
               </div>

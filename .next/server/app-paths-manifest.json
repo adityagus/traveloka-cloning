@@ -1,7 +1,5 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/post/[postId]/page": "app/post/[postId]/page.js",
   "/page": "app/page.js",
   "/list-hotels/page": "app/list-hotels/page.js",
   "/hotels/page": "app/hotels/page.js"
