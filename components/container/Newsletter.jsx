@@ -71,7 +71,7 @@ const Newsletter = () => {
                     />
                     <button className="">Subscribe</button>
                   </div>
-                <button className="max-sm:my-3 bg-orange-500 rounded-md block min-w-0 grow  text-base text-white placeholder:text-gray-400 focus:outline focus:outline-0 sm:text-sm/6 px-3 py-1">
+                <button className="max-sm:my-3 max-sm:w-full bg-orange-500 rounded-md block min-w-0 grow  text-base text-white placeholder:text-gray-400 focus:outline focus:outline-0 sm:text-sm/6 px-3 py-1">
                   Subcriber
                 </button>
                 </div>
