@@ -3,6 +3,8 @@
 import { useRef, useState } from "react";
 import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
+import WhatsAppShareButton from "../presentational/WhatsAppShareButton";
+import { shareActivity, sharePromo } from "@/lib/whatsappShare";
 // Import Swiper styles
 import "swiper/css";
 // import 'swiper/css/navigation';
@@ -74,12 +76,22 @@ const SwiperCard = ({ cards, type }) => {
                 overflow: "hidden",
                 boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
               }}
+              className="relative group"
             >
               <img
                 src={promo.image}
                 alt={promo.alt}
                 style={{ width: "100%", height: "auto", objectFit: "cover" }}
               />
+              {/* WhatsApp Share Button for banner promo */}
+              <div className="absolute top-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+                <WhatsAppShareButton 
+                  shareURL={sharePromo(promo, "Promo Terbaik")}
+                  variant="icon"
+                  size="sm"
+                  className="bg-white/20 backdrop-blur-sm hover:bg-white/30"
+                />
+              </div>
             </div>
             {/* <img src={promo.image} alt={promo.alt} /> */}
           </SwiperSlide>
@@ -95,7 +107,7 @@ const SwiperCard = ({ cards, type }) => {
                 {/* Map over the cards array to render each card */}
                 <div
                   key={index}
-                  className="col-span-2 bg-white rounded-lg shadow-lg"
+                  className="col-span-2 bg-white rounded-lg shadow-lg group relative"
                 >
                   <div className="relative">
                     <img
@@ -114,6 +126,15 @@ const SwiperCard = ({ cards, type }) => {
                         <path d="M480-480q33 0 56.5-23.5T560-560q0-33-23.5-56.5T480-640q-33 0-56.5 23.5T400-560q0 33 23.5 56.5T480-480Zm0 294q122-112 181-203.5T720-552q0-109-69.5-178.5T480-800q-101 0-170.5 69.5T240-552q0 71 59 162.5T480-186Zm0 106Q319-217 239.5-334.5T160-552q0-150 96.5-239T480-880q127 0 223.5 89T800-552q0 100-79.5 217.5T480-80Zm0-480Z" />
                       </svg>
                       {promo.tag}
+                    </div>
+                    {/* WhatsApp Share Button for activities */}
+                    <div className="absolute top-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+                      <WhatsAppShareButton 
+                        shareURL={shareActivity(promo)}
+                        variant="icon"
+                        size="sm"
+                        className="bg-white/20 backdrop-blur-sm hover:bg-white/30"
+                      />
                     </div>
                   </div>
                   <div className="p-2 min-h-24">
