@@ -1,4 +1,6 @@
 import React from "react";
+import WhatsAppShareButton from "./WhatsAppShareButton";
+import { shareHotel } from "@/lib/whatsappShare";
 
 export default function HotelCard({
   images,
@@ -11,8 +13,11 @@ export default function HotelCard({
   oldPrice,
   newPrice,
 }) {
+  const hotel = { title, location, rating, newPrice };
+  const shareURL = shareHotel(hotel);
+
   return (
-    <div className="flex bg-white shadow-md rounded-lg overflow-hidden mb-5">
+    <div className="flex bg-white shadow-md rounded-lg overflow-hidden mb-5 group relative">
       {/* Left Section - Images */}
       <div className="w-1/3 relative">
         <img
@@ -78,9 +83,16 @@ export default function HotelCard({
             </p>
             <p className="text-xs text-gray-500">Di luar pajak & biaya</p>
           </div>
-          <button className="bg-orange-500 text-white px-4 py-2 text-sm rounded hover:bg-orange-600">
-            Pilih Kamar
-          </button>
+          <div className="flex items-center gap-2">
+            <WhatsAppShareButton 
+              shareURL={shareURL}
+              variant="secondary"
+              size="sm"
+            />
+            <button className="bg-orange-500 text-white px-4 py-2 text-sm rounded hover:bg-orange-600">
+              Pilih Kamar
+            </button>
+          </div>
         </div>
       </div>
     </div>
